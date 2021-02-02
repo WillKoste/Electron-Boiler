@@ -1,0 +1,20 @@
+{
+	"name": "electron-starter",
+	"version": "1.0.0",
+	"description": "Electron server boiler template- use for new Electron projects",
+	"main": "server.js",
+	"scripts": {
+		"start": "electron .",
+		"server": "nodemon --exec electron ."
+	},
+	"keywords": [],
+	"author": "Will Koste",
+	"license": "ISC",
+	"devDependencies": {
+		"electron": "^11.2.1",
+		"nodemon": "^2.0.7"
+	},
+	"dependencies": {
+		"dotenv": "^8.2.0"
+	}
+}
